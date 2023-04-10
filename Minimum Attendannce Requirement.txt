@@ -1,0 +1,19 @@
+#Minimum Attendance Requuirement
+
+
+
+t=int(input())
+op=[]
+for i in range(t):
+    n=int(input())
+    inp_str=input()
+    cnt_0=inp_str.count('0')
+    cnt_1=inp_str.count('1')
+    remmaning_days=120-n
+    if ((remmaning_days+cnt_1)/120)*100 >= 75:
+        op.append("YES")
+    else:
+        op.append("NO")
+    
+for i in op:
+    print(i)
