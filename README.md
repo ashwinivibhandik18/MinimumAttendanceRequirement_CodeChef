@@ -1,0 +1,1 @@
+# MinimumAttendanceRequirement_CodeChef
